@@ -1,4 +1,6 @@
 python-telegram-bot==21.10
+uvicorn==0.30.6
+starlette==0.37.2
 pymongo[srv]==4.11
 bcrypt==4.2.1
 fpdf2==2.8.3
