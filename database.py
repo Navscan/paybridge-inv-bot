@@ -8,7 +8,7 @@ import bcrypt
 from datetime import datetime
 
 client = MongoClient(os.environ.get("MONGODB_URI"))
-db = client.get_default_database()
+db = client["paybridge"]
 orders_col = db["orders"]
 pins_col = db["pins"]          # keep for old orders
 shops_col = db["shops"]         # new collection for shops
