@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Downloads folder
+downloads/
+
+# Temporary files
+*.tmp
+*.part
+*.aria2
+
+# Environment files
+.env
+*.env
+
+# Any other local folders you don't want to track
